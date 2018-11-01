@@ -1,0 +1,150 @@
+.cats 
+{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.banner
+{
+    margin: -65px auto -5px;
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    text-align: center;
+}
+
+.banner-phone
+{
+    text-align: right;
+    margin: -40px auto 20px;
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.banner-phone a
+{
+    text-decoration: none;
+    color: #4e7454;
+}
+
+.cat-card
+{
+    vertical-align: bottom;
+    display: inline-block;
+    border: solid rgba(0, 0, 0, .15) 1px;
+    max-width: 270px;
+    min-width: 270px;
+    margin: 18px;
+    color: #9c7e7e;
+    font-size: 15px;
+}
+
+.cat-card:hover
+{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.cat-card a
+{
+    font-weight: normal;
+    margin: -4px 0;
+    display: inline-block;
+    width: 200px;
+    text-decoration: none;
+    color: #000;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.cat-card h1 a
+{
+    transition: all .3s;
+}
+
+.cat-card h1 a:hover
+{
+    font-size: 22px;
+    color: #8577b6;
+}
+
+.cat-card p:hover
+{
+    color: #4e7454;
+}
+
+.cat-photo
+{
+    width: 270px;
+    height: 200px;
+    object-fit: cover;
+    transition: all .5s;
+}
+
+.cat-photo:hover
+{
+    width: 270px;
+    height: 190px;
+    transform: scale(1.2);
+}
+
+.cat-brief-information
+{
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.cat-brief-information p
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cat-full-information
+{
+    display: none;
+    padding: 10px;
+}
+
+.view-label-image
+{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+
+input[type='radio']
+{
+    display: none;
+}
+
+input[value='list']:checked ~ .cats .cat-card
+{
+    display: block;
+    max-width: 500px;
+    min-width: 500px;
+    margin: -1px auto;
+}
+
+input[value='list']:checked ~ .cats .cat-card a
+{
+    width: 300px;
+    overflow: visible;
+    white-space: normal;
+    text-overflow: unset;
+}
+
+input[value='list']:checked ~ .cats .cat-photo
+{
+    width: 500px;
+    height: 400px;
+    transform: none;
+}
+
+input[value='list']:checked ~ .cats .cat-brief-information
+{
+    display: none;
+}
+
+input[value='list']:checked ~ .cats .cat-full-information
+{
+    display: inline-block;
+}
