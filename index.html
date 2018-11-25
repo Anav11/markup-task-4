@@ -8,19 +8,25 @@
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 </head>
 <body>
-    <input id="tile" class="button-switch" type="radio" name="switch" value="tile" checked>
-    <label for="tile"><img class="view-label-image" src="cats/tile.jpg" alt="tile view image"></label>
-    <input id="list" class="button-switch" type="radio" name="switch" value="list">
-    <label for="list"><img class="view-label-image" src="cats/list.png" alt="list view image"></label>
+    <div class="control-panel">
+        <input id="tile" class="button-switch" type="radio" name="switch" value="tile" checked>
+        <label for="tile">
+            <img class="view-label-image" src="cats/tile.jpg" alt="tile view image">
+        </label>
+        <input id="list" class="button-switch" type="radio" name="switch" value="list">
+        <label for="list">
+            <img class="view-label-image" src="cats/list.png" alt="list view image">
+        </label>
+    </div>
     <div class="banner">Котейки бабы Нюры</div>
     <div class="banner-phone">Телефон: <a href="tel:+79002207777">+7-900-220-77-77</a></div>
     <hr>
 
     <section class="cats">
-        <div class="cat-card">
+        <article class="cat-card">
             <img src="cats/американский-керл.jpg" class="cat-photo" alt="Котик Американский керл">
             <div class="cat-brief-information">
-                <h1><a href="#">Жулик</a></h1>
+                <h1><a href="#" class="cat-card__name cat-card__name_transition_yes">Жулик</a></h1>
                 <p>Возраст: 1 год</p>
                 <p>Порода: Американский керл</p>
                 <p>Кастрация: &#10004;</p>
@@ -28,17 +34,17 @@
                 <p>Статус: В активном поиске</p>
             </div>
             <div class="cat-full-information">
-                <h1><a href="#">Жулик</a></h1>
+                <h1><a href="#" class="cat-card__name cat-card__name_transition_yes">Жулик</a></h1>
                 <p>Возраст: 1 год</p>
                 <p>Веселый, игривый и хитрый!</p>
                 <p>Жулик раскрасит ваши вечера весело бегая по квартире или мило мурлыкая у вас под 
                 боком. Любит рисовую кашу и вискас</p>
             </div>
-        </div>
-        <div class="cat-card">
+        </article>
+        <article class="cat-card">
             <img src="cats/Чубайс.jpg" class="cat-photo" alt="Котик беспородистый">
             <div class="cat-brief-information">
-                <h1><a href="#">Чубайс</a></h1>
+                <h1><a href="#" class="cat-card__name cat-card__name_transition_yes">Чубайс</a></h1>
                 <p>Возраст: Полтора года</p>
                 <p>Порода: Беспородистый</p>
                 <p>Кастрация: &#10008;</p>
@@ -46,17 +52,17 @@
                 <p>Статус: В активном поиске</p>
             </div>
             <div class="cat-full-information">
-                <h1><a href="#">Чубайс</a></h1>
+                <h1><a href="#" class="cat-card__name cat-card__name_transition_yes">Чубайс</a></h1>
                 <p>Возраст: Полтора года</p>
                 <p>Шалун, игрун, озорной гуляка</p>
                 <p>Чубайс - это рыжее счастье, приютив которое, никогда не пожалеете. Он быстро 
                 привыкает к окружающей среде и находит язык со всеми домашними</p>
             </div>
-        </div>
-        <div class="cat-card">
+        </article>
+        <article class="cat-card">
             <img src="cats/бенгал.jpg" class="cat-photo" alt="Киска бенгал">
             <div class="cat-brief-information">
-                <h1><a href="#">Шарлотта</a></h1>
+                <h1><a href="#" class="cat-card__name cat-card__name_transition_yes">Шарлотта</a></h1>
                 <p>Возраст: 3 год</p>
                 <p>Порода: Бенгалка</p>
                 <p>Стерилизация: &#10004;</p>
@@ -64,17 +70,17 @@
                 <p>Статус: В активном поиске</p>
             </div>
             <div class="cat-full-information">
-                <h1><a href="#">Шарлотта</a></h1>
+                <h1><a href="#" class="cat-card__name cat-card__name_transition_yes">Шарлотта</a></h1>
                 <p>Возраст: 3 год</p>
                 <p>Очень требовательная красотка.</p>
                 <p>Жить ради нее, вот что нужно, чтобы с ней поладить. Она должна чувствовать ваше 
                 внимание к своей персоне постоянно. Очень ревнива.</p>
             </div>
-        </div>
-        <div class="cat-card">
+        </article>
+        <article class="cat-card">
             <img src="cats/Бурмилла.jpg" class="cat-photo" alt="Котик бурмилла">
             <div class="cat-brief-information">
-                <h1><a href="#">Ума</a></h1>
+                <h1><a href="#" class="cat-card__name cat-card__name_transition_yes">Ума</a></h1>
                 <p>Возраст: 1 год</p>
                 <p>Порода: Бурмилла</p>
                 <p>Кастрация: &#10004;</p>
@@ -82,17 +88,17 @@
                 <p>Статус: В активном поиске</p>
             </div>
             <div class="cat-full-information">
-                <h1><a href="#">Ума</a></h1>
+                <h1><a href="#" class="cat-card__name cat-card__name_transition_yes">Ума</a></h1>
                 <p>Возраст: 1 год</p>
                 <p>Любитель поиграть в прятки и плотно поесть</p>
                 <p>Ума поддержит в трудную минуту и будет веселить вас всегда, когда вам станет
                 грустно. Главное давайте ему выспаться и играйте, когда он сильно этого хочет!</p>
             </div>
-        </div>
-        <div class="cat-card">
+        </article>
+        <article class="cat-card">
             <img src="cats/као-мани.jpg" class="cat-photo" alt="Котики као-мани">
             <div class="cat-brief-information">
-                <h1><a href="#">Пупа и Лупа</a></h1>
+                <h1><a href="#" class="cat-card__name cat-card__name_transition_yes">Пупа и Лупа</a></h1>
                 <p>Возраст: Полгода и год</p>
                 <p>Порода: Као-мани</p>
                 <p>Кастрация: &#10008;</p>
@@ -100,18 +106,20 @@
                 <p>Статус: В активном поиске</p>
             </div>
             <div class="cat-full-information">
-                <h1><a href="#">Пупа и Лупа</a></h1>
+                <h1><a href="#" class="cat-card__name cat-card__name_transition_yes">Пупа и Лупа</a></h1>
                 <p>Возраст: Полгода и год</p>
                 <p>Два милых брата. Идут в комплекте!</p>
                 <p>Эти два брата не могут друг без друга. Никак. Вообще! спать - только вместе. 
                 Играть - только вместе! Они от разных кошек, но сошлись как братья. 
                 Лупе пол года, а Пупе полтора.</p>
             </div>
-        </div>
-        <div class="cat-card">
+        </article>
+        <article class="cat-card">
             <img src="cats/мейн-кун.jpg" class="cat-photo" alt="Котик мейн кун">
             <div class="cat-brief-information">
-                <h1><a href="#">Дон Винни Ля Хуаанито Котталес</a></h1>
+                <h1><a href="#" class="cat-card__name cat-card__name_transition_yes">
+                    Дон Винни Ля Хуаанито Котталес
+                </a></h1>
                 <p>Возраст: 4 года</p>
                 <p>Порода: Мейн кун</p>
                 <p>Кастрация: &#10004;</p>
@@ -119,17 +127,19 @@
                 <p>Статус: В активном поиске</p>
             </div>
             <div class="cat-full-information">
-                <h1><a href="#">Дон Винни Ля Хуаанито Котталес</a></h1>
+                <h1><a href="#" class="cat-card__name cat-card__name_transition_yes">
+                    Дон Винни Ля Хуаанито Котталес
+                </a></h1>
                 <p>Возраст: 4 года</p>
                 <p>Воспитан, элегантен, превосходен.</p>
                 <p>Этот большой красавчик от итальянского борона Хуана поразит вас своей 
                 серьезностью и тактичностью!</p>
             </div>
-        </div>
-        <div class="cat-card">
+        </article>
+        <article class="cat-card">
             <img src="cats/русская-голубая.jpg" class="cat-photo" alt="Киска русская голубая">
             <div class="cat-brief-information">
-                <h1><a href="#">Маша</a></h1>
+                <h1><a href="#" class="cat-card__name cat-card__name_transition_yes">Маша</a></h1>
                 <p>Возраст: 2 года</p>
                 <p>Порода: Русская голубая</p>
                 <p>Стерилизация: &#10008;</p>
@@ -137,17 +147,17 @@
                 <p>Статус: В активном поиске</p>
             </div>
             <div class="cat-full-information">
-                <h1><a href="#">Маша</a></h1>
+                <h1><a href="#" class="cat-card__name cat-card__name_transition_yes">Маша</a></h1>
                 <p>Возраст: 2 года</p>
                 <p>Тот еще следопыт!</p>
                 <p>Если Маша поселиться в вашем доме, то она исследует каждую щель и ее нападения  
                 будут весьма не предсказуемы.</p>
             </div>
-        </div>
-        <div class="cat-card">
+        </article>
+        <article class="cat-card">
             <img src="cats/саванна.jpg" class="cat-photo" alt="Киска саванна">
             <div class="cat-brief-information">
-                <h1><a href="#">Мурляшка</a></h1>
+                <h1><a href="#" class="cat-card__name cat-card__name_transition_yes">Мурляшка</a></h1>
                 <p>Возраст: 5 лет</p>
                 <p>Порода: Саванна</p>
                 <p>Стерилизация: &#10004;</p>
@@ -155,17 +165,17 @@
                 <p>Статус: <a href="https://vk.com/ramzan">Появился хозяйн</a></p>
             </div>
             <div class="cat-full-information">
-                <h1><a href="#">Мурляшка</a></h1>
+                <h1><a href="#" class="cat-card__name cat-card__name_transition_yes">Мурляшка</a></h1>
                 <p>Возраст: 5 лет</p>
                 <p>Когда она мурчит - кровь в жилах стынет.</p>
                 <p>Для этой зверюги нужен отдельный повар и грузовик для доставки свеженького мяса.
                 Это не тигр, конечно, но иногда задумываешься.</p>
             </div>
-        </div>
-        <div class="cat-card">
+        </article>
+        <article class="cat-card">
             <img src="cats/тойгер.jpg" class="cat-photo" alt="Котики тойгер">
             <div class="cat-brief-information">
-                <h1><a href="#">Грустя</a></h1>
+                <h1><a href="#" class="cat-card__name cat-card__name_transition_yes">Грустя</a></h1>
                 <p>Возраст: 2 с половиной года</p>
                 <p>Порода: Тойгер</p>
                 <p>Кастрация: &#10004;</p>
@@ -173,16 +183,16 @@
                 <p>Статус: В активном поиске</p>
             </div>
             <div class="cat-full-information">
-                <h1><a href="#">Грустя</a></h1>
+                <h1><a href="#" class="cat-card__name cat-card__name_transition_yes">Грустя</a></h1>
                 <p>Возраст: 2 с половиной года</p>
                 <p>Грустит по немногу, но вообще он милый</p>
                 <p>Этот кот будет просто наблюдать за вашей рутинной жизнью и сочувствовать.</p>
             </div>
-        </div>
-        <div class="cat-card">
+        </article>
+        <article class="cat-card">
             <img src="cats/Миша.jpg" class="cat-photo" alt="Котик сибирец">
             <div class="cat-brief-information">
-                <h1><a href="#">Михаил</a></h1>
+                <h1><a href="#" class="cat-card__name cat-card__name_transition_yes">Михаил</a></h1>
                 <p>Возраст: Полгода</p>
                 <p>Порода: Сибирская</p>
                 <p>Кастрация: &#10008;</p>
@@ -190,7 +200,7 @@
                 <p>Статус: <a href="https://vk.com/ilmdmaydum">Появился хозяйн</a></p>
             </div>
             <div class="cat-full-information">
-                <h1><a href="#">Михаил</a></h1>
+                <h1><a href="#" class="cat-card__name cat-card__name_transition_yes">Михаил</a></h1>
                 <p>Возраст: Полгода</p>
                 <p></p>
                 <p>Ты сидишь на месте? Дурак? БЕГИ! Вот что у Мишани в голове каждый день.
@@ -198,11 +208,11 @@
                 Мишаня затрачивает кучу энергии, поэтому запасайтесь кормом.
                 </p>
             </div>
-        </div>
-        <div class="cat-card">
+        </article>
+        <article class="cat-card">
             <img src="cats/Чаузи.png" class="cat-photo" alt="Котик Чаузи">
             <div class="cat-brief-information">
-                <h1><a href="#">Тимофей</a></h1>
+                <h1><a href="#" class="cat-card__name cat-card__name_transition_yes">Тимофей</a></h1>
                 <p>Возраст: 4 года</p>
                 <p>Порода: Чаузи</p>
                 <p>Кастрация: &#10008;</p>
@@ -210,13 +220,13 @@
                 <p>Статус: В активном поиске</p>
             </div>
             <div class="cat-full-information">
-                <h1><a href="#">Тимофей</a></h1>
+                <h1><a href="#" class="cat-card__name cat-card__name_transition_yes">Тимофей</a></h1>
                 <p>Возраст: 4 года</p>
                 <p>Добрый и ласковый, как никто</p>
                 <p>Тимоша не смотря на свой угрожающий рысий вид: очень дружелюбный и веселый
                 котейка. Главное любить его и тогда будете любимы</p>
             </div>
-        </div>
+        </article>
     </section>
 </body>
 </html>

@@ -5,10 +5,15 @@
 
 .banner
 {
-    margin: -65px auto -5px;
+    margin-right: 100px;
     font-family: 'Pacifico', cursive;
     font-size: 35px;
     text-align: center;
+}
+
+.control-panel
+{
+    float: left;
 }
 
 .banner-phone
@@ -30,8 +35,7 @@
     vertical-align: bottom;
     display: inline-block;
     border: solid rgba(0, 0, 0, .15) 1px;
-    max-width: 270px;
-    min-width: 270px;
+    width: 270px;
     margin: 18px;
     color: #9c7e7e;
     font-size: 15px;
@@ -42,7 +46,7 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
 }
 
-.cat-card a
+.cat-card__name
 {
     font-weight: normal;
     margin: -4px 0;
@@ -55,14 +59,14 @@
     text-overflow: ellipsis;
 }
 
-.cat-card h1 a
+.cat-card__name_transition_yes
 {
-    transition: all .3s;
+    transition: .3s;
 }
 
-.cat-card h1 a:hover
+.cat-card__name:hover
 {
-    font-size: 22px;
+    font-size: 18px;
     color: #8577b6;
 }
 
